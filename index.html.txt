@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obbligo o Verità</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Obbligo o Verità</h1>
+        <div class="input-section">
+            <h2>Aggiungi un Obbligo o una Verità</h2>
+            <input type="text" id="inputText" placeholder="Inserisci un obbligo o una verità">
+            <button onclick="addTask()">Aggiungi</button>
+        </div>
+        <div class="display-section">
+            <button onclick="showTask('obbligo')">Obbligo</button>
+            <button onclick="showTask('verità')">Verità</button>
+            <div id="taskDisplay"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
